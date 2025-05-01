@@ -1,0 +1,21 @@
+#root {
+  font-family: "Karla", Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400;
+  /* background: #fafafa; */
+  color: gray;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Playfair Display", Georgia, serif;
+  margin: 0 0 30px 0;
+}
