@@ -75,9 +75,14 @@ thead {
 }
 
 .loading {
-  text-align: center;
-  margin: 10px 0;
-  color: #777;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  height: 100vh; /* take full viewport height */
+  width: 100vw; /* take full viewport width */
+  position: fixed; /* stay fixed over page */
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* optional: light overlay */
+  z-index: 9999; /* stay above other elements */
 }
