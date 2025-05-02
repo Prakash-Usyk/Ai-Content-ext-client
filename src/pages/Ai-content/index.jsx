@@ -90,7 +90,9 @@ const AicontentExt = () => {
         </div>
       )}
 
-      {responseData && <ContentSummary data={responseData.data} />}
+      {responseData?.type === "success" && (
+        <ContentSummary data={responseData.data} />
+      )}
     </div>
   );
 };
