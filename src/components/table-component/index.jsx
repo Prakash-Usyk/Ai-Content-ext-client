@@ -44,7 +44,15 @@ const ContentSummary = ({ data }) => {
             {filteredPoints.map((point, index) => (
               <tr key={index}>
                 <td>{index + 1}</td>
-                <td>{point}</td>
+                <td
+                  style={{
+                    whiteSpace: "normal",
+                    wordWrap: "break-word",
+                    maxWidth: "400px",
+                  }}
+                >
+                  {point}
+                </td>
               </tr>
             ))}
           </tbody>
